@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./assets/style.css">
-    <link rel="stylesheet" href="./assets/mediaqueres.css">
+    <title>Rommle Liad | Portfolio</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/mediaqueres.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
     <main>
@@ -13,31 +14,46 @@
             <h1>Rommel's</h1>
             <div class="nav-links">
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Porfolio</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="portfolio.html">Porfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
                 </ul>
             </div>
         </nav>
         <div class="main-page">
             <div class="row">
                 <div class="col-1">
+                    <p>Hello, It's me</p>
                     <h1>Rommel Liad</h1>
-                    <p>I'm a passionate<span>Web Developer</span></p>
+                    <p>I'm a passionate<span class="multiple-text"></span></p>
+                    <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, officia dolore magnam at accusantium illum assumenda similique cupiditate ipsum maiores?</small>
                     <div class="social">
                         <img src="./assets/img/facebook.png" alt="facebook" onclick="location.href='https://www.facebook.com/rommelliad?mibextid=ZbWKwL'">
                         <img src="./assets/img/instagram.png" alt="instagram" onclick="location.href='https://www.instagram.com/melsdlta_/'">
                         <img src="./assets/img/github.png" alt="github" onclick="location.href='https://github.com/Yoh0515'">
                         <img src="./assets/img/linkedin.png" alt="linkedin" onclick="location.href='https://www.linkedin.com/in/rommel-liad-8368b924b/'">
                     </div>
+                    <div class="download-cv">
+                        <h1>Download CV</h1>
+                    </div>
                 </div>
                 <div class="col-2">
-                    <img src="./assets/img/ID Liad.jpg" alt="Main Picture">
+                    <img src="./assets/img/Yoh.png" alt="Main Picture">
                 </div>
             </div>
         </div>
     </main>
-    <script src="script.js"></script>
+    <script src="./assets/js/script.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed(".multiple-text",{
+        strings: ["Web Developer"],
+        typeSpeed: 100,
+        backSpeed: 100,
+        backDelay: 1000,
+        loop: true
+})
+    </script>
 </body>
 </html> 
