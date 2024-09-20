@@ -1,5 +1,4 @@
 main {
-    height: 90vh;
     animation: 1.5s ease-in-out fadeInUp;
 }
 
@@ -21,7 +20,7 @@ main {
     display: flex;
     flex-direction: column;
     background-color: #3C3D37;
-    margin: 2rem 7rem;
+    margin: 2rem 10rem;
     padding: 2%;
     gap: 30px;
     border-radius:3px;
@@ -32,24 +31,31 @@ main {
     display: flex;
     background-color: #3C3D37;
     align-items: center;
-    gap: 5rem;
-    padding: 2% 4%;
+    justify-content: space-evenly;
 
 }
 
-.col-1 h1 {
-    font-size: 25px;
+.col-1 {
+    width: 450px;
+}
+
+.col-1 p {
+    font-size: 14px;
     background-color: #3C3D37;
-    border: none;
+    text-align: justify;
 }
 
 .about-detail img {
     background-color: #3C3D37;
     height: 250px;
-    width: 650px;
+    width: 230px;
     border-radius: 50%;
     border: #3C3D37 solid 2px;
     box-shadow: 0px 0px 15px 0px gray;
+}
+
+.about-detail img:hover {
+    transform: rotate();
 }
 
 .header {
@@ -99,12 +105,20 @@ main {
     padding: 2% 10%;
     gap: 20px;
 }
-.skills h1 {
+.skills .header-2 h1 {
     font-size: 20px;
 }
+
+.skills h4 {
+    font-size: 10px;
+    padding-left: 30px;
+    opacity: 0.8;
+}
+
 .skills-con {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 40px;
 }
@@ -117,10 +131,11 @@ main {
     flex-direction: column;
     gap: 10px;
     justify-content: center;
+    transition: transform 1s ease;
 }
 
 .Skills h3 {
-    font-size: 12px;
+    font-size: 10px;
     color: #ECDFCC;
 }
 
@@ -129,7 +144,7 @@ main {
 }
 
 .Skills:hover {
-    transform: scale(1.1);
+    transform: scale(1.4);
 }
 
 .Skills p {
@@ -151,12 +166,28 @@ main {
     width: 25px;
 }
 
+.education {
+    height: 30vh;
+}
+
+.educ {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 30px;
+}
+
+.education .educ h1 {
+    font-size: 18px;
+    color: #ECDFCC;
+}
+
 footer p {
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 10px;
-    margin: 12rem 5rem 0 0 ;
 }
 
 /* Media Query for Mobile Devices */
@@ -264,6 +295,10 @@ footer p {
             text-align: center;
         }
 
+        .col-1 {
+            width: 350px;
+        }
+
         .col-1 h1 {
             text-align: center;
             font-size: 25px;
@@ -320,6 +355,20 @@ footer p {
             flex-wrap: wrap;
             margin: .5rem 2rem;
             gap: 13px;
+        }
+
+        footer p {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 10px;
+        }
+
+        footer p {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 10px;
         }
     }
 }
@@ -432,6 +481,10 @@ footer p {
             text-align: center;
         }
 
+        .col-1 {
+            width: 390px;
+        }
+
         .col-1 h1 {
             text-align: center;
             font-size: 25px;
@@ -488,6 +541,13 @@ footer p {
             flex-wrap: wrap;
             margin: .5rem 2rem;
             gap: 13px;
+        }
+
+        footer p {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 10px;
         }
     }
 }
@@ -654,6 +714,13 @@ footer p {
             gap: 13px;
         }
 
+        footer p {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 10px;
+        }
+
     }
 }
   
@@ -665,6 +732,13 @@ footer p {
             font-size: 25px;
             background-color: #3C3D37;
             border: none;
+        }
+
+        footer p {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 10px;
         }
     }
 }

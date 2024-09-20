@@ -60,6 +60,7 @@ main {
     width: 280px;
     border-radius: 5px;
     margin-top: 10px;
+    transition: transform 1s ease;
 }
 
 .class img:hover {
@@ -227,7 +228,7 @@ footer p {
 
         .projects .class img {
             width: 200px;
-            height: 200px;
+            height: 180px;
         }
     
     
@@ -320,7 +321,7 @@ footer p {
 
         .projects .class img {
             width: 200px;
-            height: 200px;
+            height: 180px;
         }
     }
 }
@@ -408,7 +409,7 @@ footer p {
 
         .projects .class img {
             width: 200px;
-            height: 200px;
+            height: 180px;
         }
     }
 }
@@ -427,7 +428,7 @@ footer p {
 
         .projects .class img {
             width: 200px;
-            height: 200px;
+            height: 180px;
         }
     }
 }
