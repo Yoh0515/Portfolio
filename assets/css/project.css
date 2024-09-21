@@ -1,6 +1,10 @@
 main {
-    height: 90vh;
     animation: 1.5s ease-in-out fadeInUp;
+    overflow-y: hidden;
+}
+
+body::-webkit-scrollbar, body::-webkit-scrollbar-button { 
+    display: none; 
 }
 
 @keyframes fadeInUp {

@@ -1,11 +1,15 @@
 .main {
-    height: 90vh;
     animation: 1.5s ease-in-out fadeInUp;
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow-y: hidden;
     flex-direction: column;
     gap: 40px;
+}
+
+body::-webkit-scrollbar, body::-webkit-scrollbar-button { 
+    display: none; 
 }
 
 .socials {
