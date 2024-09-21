@@ -51,6 +51,7 @@ main {
     border-radius: 5px;
     flex-wrap: nowrap;
     width: 300px;
+    height: 380px;
     flex-direction: column;
     gap: 10px; 
 }
@@ -81,6 +82,7 @@ main {
     color: #ECDFCC;
     background-color: #181C14;
     padding: 10px;
+    height: 90px;
 }
 
 .source-con {
