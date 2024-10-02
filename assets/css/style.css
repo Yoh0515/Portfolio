@@ -3,9 +3,12 @@
 
 * {
     margin: 0;
-    background-color: black;
-    color: #E7D37F;
     font-family: Poppins;
+}
+
+body {
+    background: black;
+    color: #E7D37F;
 }
 
 /* Navigation */
@@ -18,6 +21,11 @@ nav {
     position: sticky;
     top: 0;
     overflow: hidden;
+    background: black;
+}
+
+nav a h1{
+    color: #E7D37F;
 }
 
 main {
@@ -76,7 +84,6 @@ li a:hover {
 
 nav h1 {
     font-size: 30px;
-    background-color: transparent;
 }
 
 span {

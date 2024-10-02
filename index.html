@@ -27,9 +27,6 @@
       <main>
           <iframe src="home.html" id="content-frame"></iframe>
       </main>
-      <footer>
-        <p>Copyright &#169; 2024 Rommel Liad. All Rights Reserved.</p>
-      </footer>
       <script>
         document.querySelectorAll('.nav_link').forEach(link => {
             link.addEventListener('click', function (e) {
@@ -55,14 +52,16 @@
             navMenu.classList.toggle("active");
         }
 
-        const navLink = document.querySelectorAll(".nav-link");
-
-        navLink.forEach(n => n.addEventListener("click", closeMenu));
-
         function closeMenu() {
             hamburger.classList.remove("active");
             navMenu.classList.remove("active");
         }
+
+        const navLink = document.querySelectorAll(".nav_link");
+
+        navLink.forEach(n => n.addEventListener("click", closeMenu));
+
+        
 
       </script>
 </body>

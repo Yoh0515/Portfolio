@@ -1,6 +1,6 @@
 #content-frame {
     width: 100%;
-    height: 90vh;
+    height: 100vh;
 }
 
 main {
@@ -63,15 +63,23 @@ footer p {
     justify-content: center ;
 }
 
-.dl-cv {
-    display: flex;
-    border: #E7D37F solid 1px;
+.col-1 button {
     width: max-content;
     margin-top: 15px;
+    color: #ECDFCC;
+    background: none;
+    border: #E7D37F 1px solid;
     border-radius: 5px;
-    text-shadow: 3px -1px 8px #E7D37F;
     padding: 5px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.col-1 button:hover {
+    background: #E7D37F;
+    color: black;
+    font-family: Poppins;
 }
 
 @keyframes slideInUp {
