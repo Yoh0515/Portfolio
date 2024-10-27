@@ -21,11 +21,11 @@ function closeMenu() {
 
 function sendMessage() {
     (function(){
-         emailjs.init("19YZt0cTuvdX5zQfh");
+         emailjs.init("ZX-dLc6TF9-oR-4Dx");
     })();
  
-    var serviceID = "service_p8kl3ki";
-    var templateID = "template_a9xfkk5";
+    var serviceID = "service_e8gx3ve";
+    var templateID = "template_aj7a468";
  
     var params = {
      sendername: document.querySelector("#fname").value,
