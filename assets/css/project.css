@@ -42,21 +42,23 @@ body::-webkit-scrollbar, body::-webkit-scrollbar-button {
 .projects {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
     justify-content: center;
-    gap: 40px;
+    gap: 15px;
 }
 
 .class {
     border: #181C14 2px solid;
     display: flex;
     background-color: #0e0f0d;
-    align-items: center;
     border-radius: 5px;
     flex-wrap: nowrap;
     width: 300px;
     flex-direction: column;
     gap: 10px; 
+}
+
+.class > :nth-child(3) {
+    margin-top: auto;
 }
 
 .class:hover {
@@ -68,6 +70,7 @@ body::-webkit-scrollbar, body::-webkit-scrollbar-button {
     width: 280px;
     border-radius: 5px;
     margin-top: 10px;
+    align-self: center;
     transition: transform 1s ease;
 }
 
@@ -81,13 +84,14 @@ body::-webkit-scrollbar, body::-webkit-scrollbar-button {
     font-size: 10px;
     color: #ECDFCC;
     padding: 10px;
-    height: 90px;
+    height: auto;
 }
 
 .source-con {
     display: flex;
-    justify-content: start;
-    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
 }
 
 .source-con h2 {
